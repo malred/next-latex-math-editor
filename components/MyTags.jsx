@@ -10,6 +10,7 @@ export const MyTags = (props) => {
                 opts.map(o =>
                     <Tag color="green"
                          style={{
+                             cursor: 'pointer',
                              lineHeight: '0.9rem',
                              fontSize: '0.9rem',
                              height: '1.4rem',
